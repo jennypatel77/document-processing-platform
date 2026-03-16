@@ -20,10 +20,6 @@ A Spring Boot backend project to learn software engineering and system design co
 2. Update datasource config in `application.properties`
 3. Run the Spring Boot app
 4. Test endpoints in Postman
-## System Architecture
-
-![Architecture Diagram](docs/architecture-diagram.png)
-
 
 ## Current Architecture
 
