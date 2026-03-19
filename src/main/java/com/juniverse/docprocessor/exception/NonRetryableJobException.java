@@ -1,0 +1,12 @@
+package com.juniverse.docprocessor.exception;
+
+public class NonRetryableJobException extends JobProcessingException {
+
+    public NonRetryableJobException(String message) {
+        super(message);
+    }
+
+    public NonRetryableJobException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}

@@ -1,13 +1,16 @@
 package com.juniverse.docprocessor.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 import jakarta.persistence.Id;
 
 import java.time.LocalDateTime;
 
 @Entity
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "jobs")
 public class Job {
 

@@ -1,0 +1,50 @@
+
+Phase 1
+
+basic CRUD for jobs
+
+PostgreSQL integration
+
+validation and exception handling
+
+Phase 2
+
+add RabbitMQ
+
+publish jobs to queue
+
+build worker service
+
+update job lifecycle
+
+Phase 3
+
+add Redis caching
+
+cache job/result reads
+
+handle cache invalidation
+
+Phase 4
+
+Dockerize application and dependencies
+
+run with Docker Compose
+
+Phase 5
+
+add structured logging
+
+integrate Logstash
+
+Phase 6
+
+add Nginx load balancing
+
+run multiple API instances
+
+Phase 7
+
+simulate failures and memory issues
+
+study retries, duplicate processing, and large-file behavior
